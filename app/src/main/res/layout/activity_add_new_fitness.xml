@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.punisher.fitnesstracker.AddNewFitnessActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_add"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/btn_add_activity_cancel"
+            android:src="@drawable/ic_action_go_back"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add_activity_ok"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_save">
+        </ImageButton>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:showDividers="beginning|end|middle"
+        android:divider="?android:attr/dividerHorizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_date"
+            android:theme="@style/AppTheme.AddFitnessLayout">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AddFitnessIcon"
+                android:src="@drawable/ic_add_fitness_day"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:id="@+id/txt_add_date"
+                android:theme="@style/AppTheme.AddFitnessLabel"
+                android:text="@string/add_fitness_day"/>
+
+
+            <ImageView
+                android:id="@+id/txt_add_date_error_icon"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:theme="@style/AppTheme.AddFitnessFieldErrorIcon"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_time"
+            android:theme="@style/AppTheme.AddFitnessLayout">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_add_time"
+                android:theme="@style/AppTheme.AddFitnessIcon"
+                android:src="@drawable/ic_add_fitness_time_day" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:id="@+id/txt_add_time"
+                android:theme="@style/AppTheme.AddFitnessLabel"
+                android:text="@string/add_fitness_time"/>
+
+            <ImageView
+                android:id="@+id/txt_add_time_error_icon"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:theme="@style/AppTheme.AddFitnessFieldErrorIcon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_act_type"
+            android:theme="@style/AppTheme.AddFitnessLayout">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_add_act_type"
+                android:theme="@style/AppTheme.AddFitnessIcon"
+                android:src="@drawable/ic_add_fitness_type"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_add_act_type"
+                android:theme="@style/AppTheme.AddFitnessLabel"
+                android:text="@string/add_fitness_type"/>
+
+            <ImageView
+                android:id="@+id/txt_add_type_error_icon"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:theme="@style/AppTheme.AddFitnessFieldErrorIcon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_duration"
+            android:theme="@style/AppTheme.AddFitnessLayout">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AddFitnessIcon"
+                android:src="@drawable/ic_add_fitness_time"
+                android:id="@+id/lbl_add_act_duration"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_add_act_duration"
+                android:theme="@style/AppTheme.AddFitnessLabel"
+                android:text="@string/add_fitness_duration"/>
+
+            <ImageView
+                android:id="@+id/txt_add_duration_error_icon"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:theme="@style/AppTheme.AddFitnessFieldErrorIcon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_distance"
+            android:theme="@style/AppTheme.AddFitnessLayout">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AddFitnessIcon"
+                android:id="@+id/lbl_add_act_distance"
+                android:src="@drawable/ic_add_fitness_distance"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_add_act_distance"
+                android:theme="@style/AppTheme.AddFitnessLabel"
+                android:text="@string/add_fitness_distance"/>
+
+            <ImageView
+                android:id="@+id/txt_add_distance_error_icon"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:theme="@style/AppTheme.AddFitnessFieldErrorIcon"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

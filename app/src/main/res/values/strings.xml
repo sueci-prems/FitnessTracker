@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Fitness Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_add_new_activity">New Activity</string>
+    <string name="btn_add_activity">New</string>
+    <string name="btn_list_activity">List</string>
+    <string name="btn_stats_activity">Stats</string>
+    <string name="btn_graph_activity">Graph</string>
+
+    <string name="btn_seeall_activity">See All Activities</string>
+    <string name="btn_addfinish_activity">Add This Activity</string>
+    <string name="lbl_add_date">Date</string>
+    <string name="lbl_add_time">Time of the Day</string>
+    <string name="lbl_add_act_type">Activity Type</string>
+
+
+    <string name="act_type_dialog_title">Activity Type</string>
+    <string name="lbl_add_act_duration">Duration</string>
+    <string name="lbl_add_act_distance">Distance</string>
+
+    <string name="btn_OK">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_choose">Press to Choose</string>
+    <string name="btn_set">Press to Set</string>
+
+    <string name="unit_hour">Hours</string>
+    <string name="unit_min">Minutes</string>
+    <string name="unit_sec">Seconds</string>
+    <string name="unit_km">Kilometers</string>
+    <string name="unit_m">Meters</string>
+
+    <string name="lbl_title_dialog_duration">Activity Duration</string>
+    <string name="lbl_title_dialog_distance">Activity Distance</string>
+
+    <string name="btn_stop_activity">Stop this program!</string>
+    <string name="action_export_db">Export Database</string>
+    <string name="action_import_db">Import Database</string>
+    <string name="action_clear_db">Clear Database</string>
+
+    <string name="dialog_clear_db_confirmation">All data will be lost. Continue?</string>
+    <string name="dialog_import_db_confirmation">Current data will be replaced by a backup database. Continue?</string>
+    <string name="dialog_clear_db_completed">The database has been cleared</string>
+    <string name="dialog_import_db_completed">A new database has been imported</string>
+    <string name="dialog_export_db_completed">The current database has been exported</string>
+
+    <string name="dialog_activity_action_delete_title">Delete Activity</string>
+    <string name="dialog_activity_action_delete">Are you sure you want to delete this activity?</string>
+    <string name="dialog_activity_action_edit">Edit</string>
+
+    <string name="progress_bar_loading_msg">Wait while loading the database</string>
+    <string name="progress_bar_clearing_msg">Wait while deleting the database</string>
+    <string name="progress_bar_exporting_msg">Wait while exporting the database</string>
+    <string name="progress_bar_deleting_msg">Wait while deleting the activity</string>
+    <string name="progress_bar_adding_msg">Wait while adding the activity</string>
+
+    <string name="add_fitness_distance">Set distance</string>
+    <string name="add_fitness_duration">Set duration</string>
+    <string name="add_fitness_type">Set activity type</string>
+    <string name="add_fitness_time">Set time</string>
+    <string name="add_fitness_day">Set day</string>
+
+    <string name="list_fitness_default_date">No date available</string>
+    <string name="list_fitness_default_distance">-.--</string>
+    <string name="list_fitness_default_duration">--.--</string>
+    <string name="list_fitness_default_average">--.--</string>
+    <string name="list_fitness_unset_number">---</string>
+    <string name="list_fitness_distance_lbl">Kilometers</string>
+    <string name="list_fitness_duration_lbl">Duration</string>
+    <string name="list_fitness_average_lbl">dur/km</string>
+
+    <string name="sort_button_date">Date</string>
+    <string name="sort_button_distance">Dist</string>
+    <string name="sort_button_duration">Dur</string>
+    <string name="sort_button_average">Avg</string>
+
+    <string name="filter_button_running">Running</string>
+    <string name="filter_button_swimming">Swimming</string>
+    <string name="filter_button_biking">Biking</string>
+
+    <string name="pref_db_category_title">Database / Backup</string>
+    <string name="pref_db_category_summary">Database backup and recovery options</string>
+    <string name="pref_db_export_title">Export Database</string>
+    <string name="pref_db_export_summary">Export the database in the device storage memory</string>
+    <string name="pref_db_import_title">Import Database</string>
+    <string name="pref_db_import_summary">Import the database from the device storage memory</string>
+    <string name="pref_db_clear_title">Clear Database</string>
+    <string name="pref_db_clear_summary">Erase all the data from the database</string>
+
+
+    <string name="stat_loading_dialog_text">Wait while loading the statistics</string>
+    <string name="stat_data_longest_distance_lbl">Longest Distance: </string>
+    <string name="stat_data_longest_duration_lbl">Longest Duration: </string>
+    <string name="stat_data_total_distance_lbl">Total Distance: </string>
+    <string name="stat_data_total_duration_lbl">Total Duration: </string>
+    <string name="stat_data_best_average_lbl">Best Average: </string>
+    <string name="stat_data_total_activity_lbl">Total Activities: </string>
+
+
+</resources>
